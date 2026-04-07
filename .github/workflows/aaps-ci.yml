@@ -194,7 +194,7 @@ jobs:
               -Dkotlin.compiler.execution.strategy="in-process" \
               -Dorg.gradle.daemon=true \
               -Dorg.gradle.workers.max=8 \
-              -Dorg.gradle.caching=true \
+              -Dorg.gradle.caching=false \
               -Pandroid.injected.signing.store.file="$RUNNER_TEMP/keystore/keystore.jks" \
               -Pandroid.injected.signing.store.password="$KEYSTORE_PASSWORD" \
               -Pandroid.injected.signing.key.alias="$KEY_ALIAS" \
